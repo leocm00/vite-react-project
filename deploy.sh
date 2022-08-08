@@ -1,33 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
-
-
 #!/usr/bin/envsh
 
 # abortar en caso de errores
@@ -50,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<NOMBRE DE USUARIO>/<NOMBRE DE USUARIO>.github.io.git main
 
 # si estás desplegando en https://<NOMBRE DE USUARIO>.github.io/<REPO>
-# git push -f git@github.com:<NOMBRE DE USUARIO>/<REPO>.git main:gh-pages
+# git push -f git@github.com:leomcm00/vite-react-project.git main:gh-pages
 
 cd -
